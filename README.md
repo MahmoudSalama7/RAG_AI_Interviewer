@@ -52,7 +52,6 @@ RAG_AI_Interviewer/
 
 ### 📥 Setup
 <pre>
-```bash
 git clone https://github.com/your-username/RAG_AI_Interviewer.git
 cd RAG_AI_Interviewer
 
@@ -69,9 +68,6 @@ pip install -r requirements.txt
 <pre>
 Run the main program:
 
-bash
-Copy
-Edit
 python main.py
 Select a topic (e.g., Data Science, Machine Learning)
 
@@ -92,9 +88,6 @@ Receive feedback at the end 🎯
 🔹 Topics
 You can edit config.py to add or remove topics and subtopics:
 <pre>
-python
-Copy
-Edit
 topic_mapping = {
     "data science": ["statistics", "data wrangling", "pandas"],
     "machine learning": ["supervised", "unsupervised", "deep learning"],
@@ -113,9 +106,6 @@ Typing exit also clears memory immediately
 🛠️ Dependencies
 See requirements.txt:
 <pre>
-txt
-Copy
-Edit
 langchain>=0.2.0
 langchain-community>=0.0.21
 langchain-core>=0.2.0
@@ -126,9 +116,6 @@ tqdm
 
 🧪 Sample Output
 <pre>
-bash
-Copy
-Edit
 1. Data Science
 2. Machine Learning
 3. Soft Skills
@@ -162,11 +149,11 @@ Interview Feedback:
   🔗 [LinkedIn](https://www.linkedin.com/in/talal-ahmed-579905262)
 
 
-🔗 References
-LangChain Docs
+## 🔗 References
 
-Ollama Models
+- [LangChain Documentation](https://python.langchain.com/)
+- [Ollama Models](https://ollama.com/library)
+- [Chroma Vector DB](https://docs.trychroma.com/)
 
-Chroma Vector DB
 
 💡 This project was created as part of my AI and ML portfolio — simulating real interviews with intelligent language models.
