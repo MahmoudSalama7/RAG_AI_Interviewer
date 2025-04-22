@@ -37,7 +37,7 @@ RAG_AI_Interviewer/ ├── main.py # Main CLI interface ├── config.py #
 - [Ollama installed](https://ollama.com/download) and running locally
 
 ### 📥 Setup
-
+<pre>
 ```bash
 git clone https://github.com/your-username/RAG_AI_Interviewer.git
 cd RAG_AI_Interviewer
@@ -48,6 +48,8 @@ source venv/bin/activate      # Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+</pre>
+
 
 💡 Usage
 Run the main program:
