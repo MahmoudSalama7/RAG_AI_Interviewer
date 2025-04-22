@@ -23,7 +23,21 @@ A smart **AI-powered interview simulation system** built with **LangChain**, **R
 
 ## 📁 Project Structure
 
-RAG_AI_Interviewer/ ├── main.py # Main CLI interface ├── config.py # Topic and subtopic mappings ├── requirements.txt # Project dependencies ├── README.md # You're reading this ├── services/ │ ├── interview.py # Interview session logic │ ├── generator.py # Question generator using LangChain │ └── feedback.py # Feedback generator logic ├── utils/ │ ├── logger.py # Custom logging utility │ └── helpers.py # Similarity and helper methods └── docs/ └── chroma/ # Optional Chroma vector DB storage
+RAG_AI_Interviewer/
+├── main.py               # Main CLI interface
+├── config.py             # Topic and subtopic mappings
+├── requirements.txt      # Project dependencies
+├── README.md             # You're reading this
+├── services/
+│   ├── interview.py      # Interview session logic
+│   ├── generator.py      # Question generator using LangChain
+│   └── feedback.py       # Feedback generator logic
+├── utils/
+│   ├── logger.py         # Custom logging utility
+│   └── helpers.py        # Similarity and helper methods
+└── docs/
+    └── chroma/           # Optional Chroma vector DB storage
+
 
 
 ---
@@ -52,6 +66,7 @@ pip install -r requirements.txt
 
 
 💡 Usage
+<pre>
 Run the main program:
 
 bash
@@ -69,13 +84,14 @@ Introduce yourself
 Answer each question
 
 Type exit to end early — memory will be cleared automatically
-
+</pre>
 Receive feedback at the end 🎯
+
 
 📚 Configuration
 🔹 Topics
 You can edit config.py to add or remove topics and subtopics:
-
+<pre>
 python
 Copy
 Edit
@@ -84,6 +100,8 @@ topic_mapping = {
     "machine learning": ["supervised", "unsupervised", "deep learning"],
     "soft skills": ["communication", "teamwork"],
 }
+</pre>
+
 
 🧠 Memory Management
 Uses ConversationBufferMemory from LangChain
@@ -94,7 +112,7 @@ Typing exit also clears memory immediately
 
 🛠️ Dependencies
 See requirements.txt:
-
+<pre>
 txt
 Copy
 Edit
@@ -104,7 +122,10 @@ langchain-core>=0.2.0
 langchain-ollama>=0.1.0
 chromadb>=0.4.24
 tqdm
+</pre>
+
 🧪 Sample Output
+<pre>
 bash
 Copy
 Edit
@@ -126,6 +147,7 @@ Your Answer: I use isnull combined with fillna...
 Interview Feedback:
 - Great job using specific functions like fillna!
 - Try to elaborate more on when you'd use each method.
+</pre>
 
 👤 Author
 
