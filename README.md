@@ -22,7 +22,7 @@ A smart **AI-powered interview simulation system** built with **LangChain**, **R
 ---
 
 ## 📁 Project Structure
-
+<pre>
 RAG_AI_Interviewer/
 ├── main.py               # Main CLI interface
 ├── config.py             # Topic and subtopic mappings
@@ -37,7 +37,7 @@ RAG_AI_Interviewer/
 │   └── helpers.py        # Similarity and helper methods
 └── docs/
     └── chroma/           # Optional Chroma vector DB storage
-
+</pre>
 
 
 ---
