@@ -143,7 +143,7 @@ Interview Feedback:
   🔗 [LinkedIn](https://www.linkedin.com/in/mahmoud-salama-5a0525227/)
 
 - **Mennatullah Yasser**  
-  📧 mennatullahyasser00@gmail.com 
+  📧 mennatullahyasser00@gmail.com   
   🔗 [LinkedIn](https://www.linkedin.com/in/mennatullahyasser12)
 
 - **Talal Ahmed**  
